@@ -5,6 +5,7 @@
   "keywords": ["payload", "cms", "plugin", "recently", "visited", "collection", "history", "payload-plugin"],
   "main": "./src/index.ts",
   "author": "Mito Digital <dev@mito.hu> (https://mito.group/digital)",
+  "files": ["dist"],
   "maintainers": [
     {
       "name": "Arpad Bajzath",

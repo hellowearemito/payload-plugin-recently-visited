@@ -2,7 +2,16 @@
   "name": "@hellowearemito/payload-plugin-recently-visited",
   "version": "0.1.0",
   "description": "A plugin for Payload CMS to list recently visited items on the admin dashboard",
+  "keywords": ["payload", "cms", "plugin", "recently", "visited", "collection", "history", "payload-plugin"],
   "main": "./src/index.ts",
+  "author": "Mito Digital <dev@mito.hu> (https://mito.group/digital)",
+  "maintainers": [
+    {
+      "name": "Arpad Bajzath",
+      "email": "a.bajzath@mito.hu",
+      "url": "https://x.com/BajzathArpad"
+    }
+  ],
   "types": "./src/index.ts",
   "exports": {
     ".": {
@@ -35,8 +44,6 @@
     "build": "tsc --project tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "peerDependencies": {
     "next": "^15.0.3",

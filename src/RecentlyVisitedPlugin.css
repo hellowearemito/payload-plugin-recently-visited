@@ -1,0 +1,15 @@
+.RecentlyVisitedPluginNav {
+  .nav-group__content {
+    .nav__link {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      background: none;
+      color: currentColor;
+      text-align: left;
+      margin: 0;
+    }
+  }
+}

@@ -28,7 +28,7 @@ export default buildConfig({
 |--------------------------|-----------|-------------------|----------------------------------------------------|
 | enabled                  | `boolean` | `false`           | Enable or disable the plugin                       |
 | adminUsersCollectionSlug | `string`  | `users`           | The collection slug for the admin users collection |
-| breadcrumbClass          | `string`  | `.step-nav__last` | The class name for the breadcrumb container        |
+| breadcrumbClass          | `string`  | `.step-nav__last` | The class name of the last link in the breadcrumb  |
 
 ## Usage on the Frontend
 

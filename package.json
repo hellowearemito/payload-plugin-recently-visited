@@ -1,6 +1,6 @@
 {
   "name": "@hellowearemito/payload-plugin-recently-visited",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "A plugin for Payload CMS to list recently visited items on the admin dashboard",
   "keywords": ["payload", "cms", "plugin", "recently", "visited", "collection", "history", "payload-plugin"],
   "main": "./src/index.ts",

@@ -1,11 +1,15 @@
 {
   "name": "@hellowearemito/payload-plugin-recently-visited",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "A plugin for Payload CMS to list recently visited items on the admin dashboard",
   "keywords": ["payload", "cms", "plugin", "recently", "visited", "collection", "history", "payload-plugin"],
   "main": "./src/index.ts",
   "author": "Mito Digital <dev@mito.hu> (https://mito.group/digital)",
   "files": ["dist"],
+  "tags": {
+    "latest": "1.0.0",
+    "legacy": "0.1.0"
+  },
   "maintainers": [
     {
       "name": "Arpad Bajzath",

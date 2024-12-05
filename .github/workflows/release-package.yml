@@ -2,6 +2,7 @@ name: Publish Package
 on:
   release:
     types: [published]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +27,23 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Publish to npm
+      - name: Set npm tag
+        id: set-npm-tag
+        run: |
+          if [[ ${{ github.ref }} == *"legacy"* ]]; then
+            echo "NPM_TAG=legacy" >> $GITHUB_OUTPUT
+          else
+            echo "NPM_TAG=latest" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Publish to npm (latest)
+        if: steps.set-npm-tag.outputs.NPM_TAG == 'latest'
         run: pnpm publish --access public --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish to npm (legacy)
+        if: steps.set-npm-tag.outputs.NPM_TAG == 'legacy'
+        run: pnpm publish --access public --no-git-checks --tag legacy
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

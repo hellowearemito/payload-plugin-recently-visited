@@ -1,6 +1,6 @@
 {
   "name": "@hellowearemito/payload-plugin-recently-visited",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A plugin for Payload CMS to list recently visited items on the admin dashboard",
   "keywords": ["payload", "cms", "plugin", "recently", "visited", "collection", "history", "payload-plugin"],
   "main": "./src/index.ts",
@@ -42,7 +42,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
+    "build": "tsc --project tsconfig.json && cp src/RecentlyVisitedPlugin.css dist/RecentlyVisitedPlugin.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",

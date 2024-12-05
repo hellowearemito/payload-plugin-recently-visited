@@ -35,7 +35,7 @@ export const recentlyVisited = (pluginOptions: RecentlyVisitedPluginOptions): Pl
         dependencies: {
           ...(incomingConfig.admin?.dependencies || {}),
           recentlyVisited: {
-            path: '@hellowaremito/payload-plugin-recently-visited/RecentlyVisited',
+            path: '@hellowearemito/payload-plugin-recently-visited',
             type: 'component',
             clientProps: pluginOptions
           }
@@ -44,7 +44,7 @@ export const recentlyVisited = (pluginOptions: RecentlyVisitedPluginOptions): Pl
           ...(incomingConfig.admin?.components || {}),
           beforeNavLinks: [
             ...(incomingConfig.admin?.components?.beforeNavLinks || []),
-            '@hellowaremito/payload-plugin-recently-visited/RecentlyVisited',
+            '@hellowearemito/payload-plugin-recently-visited',
           ],
         },
       },

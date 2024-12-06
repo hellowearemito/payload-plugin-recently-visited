@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/@hellowearemito%2Fpayload-plugin-recently-visited.svg)](https://badge.fury.io/js/@hellowearemito%2Fpayload-plugin-recently-visited)
+[![npm version](https://badge.fury.io/js/@hellowearemito%2Fpayload-plugin-recently-visited.svg)](https://npmjs.com/package/@hellowearemito/payload-plugin-recently-visited)
 # Payload Plugin Recently Viewed
 The aim of this plugin is to provide a list of recently viewed pages to the user. 
 This plugin is useful for users who want to quickly navigate to the pages they have recently viewed.

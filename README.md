@@ -2,6 +2,9 @@
 # Payload Plugin Recently Viewed
 The aim of this plugin is to provide a list of recently viewed pages to the user. 
 This plugin is useful for users who want to quickly navigate to the pages they have recently viewed.
+Especially useful when you have a lot of collections and entries, and you want to quickly jump between them.
+
+![screenshot of the plugin](./screenshots/screen.png)
 
 ## Installation
 

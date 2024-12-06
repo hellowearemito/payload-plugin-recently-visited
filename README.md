@@ -6,11 +6,7 @@ This plugin is useful for users who want to quickly navigate to the pages they h
 ## Installation
 
 ```bash
-# For Payload CMS version 3+
 npm install @hellowearemito/payload-plugin-recently-viewed
-
-# For Payload CMS version 2
-npm install @hellowearemito/payload-plugin-recently-viewed@legacy
 ```
 
 ## Usage
